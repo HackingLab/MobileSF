@@ -1,7 +1,8 @@
 # HackingLab定制版Mobile Safe Framework
 ##Mobile Safe Framework Link
-###官方地址: https://github.com/ajinabraham/Mobile-Security-Framework-MobSF
-###HackingLab定制版地址: https://github.com/HackingLab/MobileSF
+官方地址: https://github.com/ajinabraham/Mobile-Security-Framework-MobSF
+HackingLab定制版地址: https://github.com/HackingLab/MobileSF
+（Bug较多，小白暂时等一等，欢迎大牛批评。）
 ##功能介简介:
 1.支持安卓APK静态分析,动态分析
 (动态分析可使用MobileSafeFramework官方提供的VirtualBox虚拟机也可以使用用户自己的手机进行测试,需要开启USB调试并安装响应的测试软件)
