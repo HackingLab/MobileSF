@@ -1,0 +1,24 @@
+{% extends "skelton_base.html" %}
+   {% block content %}
+</br>  
+	 <div class="page-header">
+      </div> 
+    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i><span class="glyphicon glyphicon-list-alt"></span> 为您查找: <strong>{{ term }}</strong>. 找到 {{ found }} 文件.</h3>
+                            </div>
+                            <div class="panel-body">
+							<table>
+            
+                {% for m in matches %}
+                      
+                    <tr><td> {{ m|safe }} </td></tr>
+                    
+                    {% endfor %}  
+
+</table>
+                        </div>
+                    </div>
+					</div>
+   {% endblock %}
