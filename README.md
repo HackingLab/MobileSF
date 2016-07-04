@@ -13,8 +13,10 @@ Version: v0.9.2 beta
 ##界面截图: 
 系统首页界面
 [![index](http://mobilesf.hackinglab.cn/media/14676328520038/14676334645872.jpg)
+
 进行静态分析
-[![index](http://mobilesf.hackinglab.cn/media/14676328520038/14676330860451.jpg)
+[![static](http://mobilesf.hackinglab.cn/media/14676328520038/14676330860451.jpg)
+
 apk动态分析过程会自动测试多个安全项目,并自动进行屏幕截图.
 不仅包括Activities相关测试,还能够自动对网络流量进行分析,并保存由APP发出的HTTP/HTTPS请求.
 
@@ -24,7 +26,6 @@ apk动态分析过程会自动测试多个安全项目,并自动进行屏幕截�
 * http://www.xseclab.com/
 * http://hackinglab.cn/
 
-#
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/4301109/14958530/d5fb36ac-10a8-11e6-93b9-8859fd0158b6.png">
 </p>
