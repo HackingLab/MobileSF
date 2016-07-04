@@ -1,0 +1,27 @@
+
+  {% extends "base_top_only.html" %}
+   {% block content %}
+    
+
+<div class="box box-default">
+     
+          <div class="box-body">
+
+
+        <h1>关于 App分析工具(HackingLab定制版)</h1>
+      
+      <p class="lead">
+      MobSF是一款智能的,集多种功能于一体的移动App(安卓/IOS)测试工具框架.他支持安卓/IOS应用和ZIP格式的源码包
+      <b>静态分析:</b>
+      静态分析可以查看源代码,检测不安全的权限/配置,检测代码中不安全的ssl管理(如重写,绕过等),弱的加密算法,代码混淆,导入权限,硬编码秘钥,不恰当的危险的API使用,敏感信息泄露,不安全的文件存储等.</p>
+      <p>
+      <b>动态分析:</b>
+      动态分析是在虚拟机中/或配置好的设备中运行APP并进行安全检测.对应用进行更深层的检测,包括网络抓包,解密HTTPS流量,应用dump,日志,错误,崩溃,调试信息,调用栈,应用资源,属性,数据库等.在这个框架中,你也可以自行定制自己的测试规则.最后会生成一份快速简洁的测试报告.以后我们也会拓展该框架,使得其能够支持其他的移动平台,如Tizen,WindowsPhone等.
+
+      它可用于有效和快速安全分析的Android和iOS应用程序和支持二进制文件(APK,IPA)和压缩源代码。MobSF还可以执行与它的API Fuzzer Web API的安全测试。</p>
+      <p>系统开发：<a href="//twitter.com/ajinabraham">http://twitter.com/ajinabraham Ajin Abraham</a></p>
+      <p>翻译优化：<a href="//hackinglab.cn">http://hackinglab.cn 翻译优化</a></p>
+          </div>
+          <!-- /.box-body -->
+        </div>
+{% endblock %}
