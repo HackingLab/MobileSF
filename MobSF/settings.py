@@ -254,7 +254,10 @@ else:
     '''
 
     #===============DEVICE SETTINGS=================
+    #bug fix here HackingLab
     REAL_DEVICE = True
+    DEVICE_SERIALNUMBER = '7C5831B66909'
+    #DEVICE_IP and DEVICE_ADB_PORT is not a good way ,and lead to many bugs,hackinglab think we can us serialnumber 
     DEVICE_IP = '127.0.0.1'
     DEVICE_ADB_PORT = 5038
     DEVICE_TIMEOUT = 300
