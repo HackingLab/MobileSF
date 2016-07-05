@@ -254,9 +254,9 @@ else:
     '''
 
     #===============DEVICE SETTINGS=================
-    REAL_DEVICE = False
-    DEVICE_IP = '192.168.1.18'
-    DEVICE_ADB_PORT = 5555
+    REAL_DEVICE = True
+    DEVICE_IP = '127.0.0.1'
+    DEVICE_ADB_PORT = 5038
     DEVICE_TIMEOUT = 300
     #===============================================
     #================VM SETTINGS ===================
